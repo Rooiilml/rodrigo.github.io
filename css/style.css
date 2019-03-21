@@ -1,0 +1,50 @@
+/*p, li, h1 {
+	color: blue;
+	width: 500px;
+	border: 1px solid black; es para la linea de la etiqueta
+} esto fue una prueba  */
+
+html {
+  font-size: 10px; /* px quiere decir 'pixels': la base del tamaño de fuente es ahora de 1o pixeles*/
+  font-family: Este debe ser el resto del resultado que obtuviste de Google fonts;
+  background-color: #00539F;
+  color: white;
+} 
+
+body {
+  width: 600px;
+  margin: 0 auto; /* el primer valor afectara los lados superior (top) e inferior (bottom) (en este caso haciéndolo en 0), y el segundo valor los lados izquierda (left) y derecha (right) (aquí, auto es un valor especial que divide el espacio disponible entre derecha e izquierda). */
+  background-color: #FF9500; /* naranja rojizo */
+  padding: 0 20px 20px 20px; /* Es deacuerdo a las manecillas del reloj, arriba, derecha, abajo, izquierda*/
+  border: 5px solid black;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;    
+  text-shadow: 3px 3px 1px black; /* sombraa */
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+p, li {
+  font-size: 16px;    /* este es el tamaño de las letras */ 
+  line-height: 2; /* Multiplica el numero por el espaciado de entre las letras y como consecuencia es la altura entre las lineas y parrafos */
+  letter-spacing: 1px;  /* el espaciado entre las letras */
+}
+/*
+width (ancho del elemento)
+background-color, el color de fondo del contenido y del relleno
+color, el color del contenido del elemento (generalmente texto)
+text-shadow: coloca una sombra difuminada en el texto dentro del elemento
+display: selecciona el modo de visualización para el elemento (no te preocupes de esto por ahora)
+*/
+
+
+
+
